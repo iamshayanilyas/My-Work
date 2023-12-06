@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+<style>
+    span{
+    font-family: sans-serif;
+    font-size: 100px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+}
+nav a{
+    font-size: 15px;
+    padding: 5px 6px;
+    cursor: pointer;
+    text-decoration: underline
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 3px;
+}
+div img{
+    padding-top: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+input{
+    border: 1px solid transparent;
+    padding: 9px 20px;
+    color: grey;
+    font-size: 15px;
+    display: inline-block;          
+    
+    }
+
+input:hover{
+ border: 1px solid rgb(179, 181, 182);
+}
+
+.searchbtn{
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 50px;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: border color 100ms;
+    float: center;
+}
+.searchbar{
+float: center;
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+  width: 500px;
+}
+.lang{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.lang:hover{
+    margin-left: 10px;
+    cursor: pointer;
+}
+footer  {
+  background: #9c9a9a;
+  border-top: solid 2px #e4e4e4;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  
+}
+footer ul li {
+  display: inline;
+  color: #666363;
+  font-size: 20px;
+  padding: 13px;
+}
+
+footer ul {
+  float: left;
+  padding: 10px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+</style>
+</head>
+
+<body>
+    <nav>
+        <a>Gmail</a>
+        <a>images</a>
+        <img src="dot.PNG">
+        <img src="mypic.PNG">
+    </nav>
+    <div >
+        <center>
+    <span style="color: #4285F4">G</span>
+    <span style="color: #EA4335;">o</span>
+    <span style="color: #FBBC05;">o</span>
+    <span style="color: #4285F4;">g</span>
+    <span style="color: #34A853;">l</span>
+    <span style="color: #EA4335;">e</span>
+</center>
+    </div>
+    <center>
+    <div class="searchbar">
+    <img src="search1.png" >
+    <input type="search" placeholder="Search" >
+    <img src="smic2.png" >
+</center>
+</div>
+<center>
+    <form>
+        
+        <div class="searchbtn">
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I am feeling Lucky">
+        </div class="lang"><br>
+        Google Offered in:
+        <a href="#" style="margin: 10px;">English</a>
+        <a href="#" style="margin: 10px;">Urdu</a>
+    </form>
+</center>
+<br><br><br><br><br><br><br><br>
+<footer>
+    <h4><b>Pakistan</b></h4>
+    <ul >
+      <li><a href="#">Advertising</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">About</a></li> 
+    </ul>
+    <ul class="footer-right">    
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>       
+</footer>  
+</body>
+</html>
